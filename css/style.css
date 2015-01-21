@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .background {
@@ -67,7 +67,7 @@ body {
   body { background: #6b83ad; }
 
   .background {
-    bottom: 0;
+    bottom: -25%;
     top: inherit;
   }
 
@@ -81,6 +81,17 @@ body {
   }
 
 }
+
+@media (min-width: 768px) and (max-width: 799px) {
+  body { background: #6b83ad; }
+
+  .background {
+    bottom: 0;
+    top: inherit;
+  }
+
+}
+
 
 @media (min-width: 800px) and (max-width: 1024px) {
 
