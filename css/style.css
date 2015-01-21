@@ -22,17 +22,23 @@ body {
   padding: 20px;
   position: relative;
   right:0;
-  top: 120px;
+  top: 100px;
   text-align: center;
-  width: 470px;
+  width: 460px;
   z-index: 20;
 }
 
 .content p {
   color: #fff;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 300;
   margin: 25px 0;
+}
+
+.content .subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0 45px;
 }
 
 .content a {
