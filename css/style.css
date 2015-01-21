@@ -12,6 +12,7 @@ body {
 
 .background {
   position: absolute;
+  top: -25%;
   width: 100%;
   z-index: 10;
 }
@@ -29,7 +30,7 @@ body {
 
 .content p {
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
   margin: 25px 0 50px 0;
 }
@@ -43,13 +44,31 @@ body {
   text-decoration: none;
  }
 
- .content a:hover {
+.content a:hover {
   background: #34ad64;
- }
+}
 
- .content small {
+.content small {
   color: #fff;
   display: block;
   font-weight: 300;
   margin: 30px 0 0 0;
- }
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+  body { background: #789ac8; }
+
+  .background {
+    bottom: 0;
+    top: 0;
+  }
+
+  .logo { width: 100%; }
+
+  .content {
+    top: 80px;
+    left: 0;
+    width: 320px;
+  }
+
+}
