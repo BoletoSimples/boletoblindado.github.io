@@ -1,0 +1,35 @@
+/*landing page style*/
+
+*{
+  margin: 0;
+  paddin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.content {
+  left: 45%;
+  padding: 20px;
+  position: relative;
+  right:0;
+  top: 180px;
+  width: 470px;
+  z-index: 20;
+}
+
+.content p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 55px 0 0 0;
+  text-align: center;
+}
