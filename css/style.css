@@ -21,7 +21,8 @@ body {
   padding: 20px;
   position: relative;
   right:0;
-  top: 180px;
+  top: 150px;
+  text-align: center;
   width: 470px;
   z-index: 20;
 }
@@ -30,6 +31,25 @@ body {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
-  margin: 55px 0 0 0;
-  text-align: center;
+  margin: 25px 0 50px 0;
 }
+
+.content a {
+  background: #2ecc71;
+  box-shadow: 0px 4px 1px #0c6832;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+ }
+
+ .content a:hover {
+  background: #34ad64;
+ }
+
+ .content small {
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  margin: 30px 0 0 0;
+ }
