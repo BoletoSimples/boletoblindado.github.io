@@ -22,7 +22,7 @@ body {
   padding: 20px;
   position: relative;
   right:0;
-  top: 150px;
+  top: 120px;
   text-align: center;
   width: 470px;
   z-index: 20;
@@ -32,7 +32,7 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
-  margin: 25px 0 50px 0;
+  margin: 25px 0;
 }
 
 .content a {
@@ -40,6 +40,8 @@ body {
   box-shadow: 0px 4px 1px #0c6832;
   border-radius: 4px;
   color: #fff;
+  display: inline-block;
+  margin: 5px 0 0 0;
   padding: 10px;
   text-decoration: none;
  }
