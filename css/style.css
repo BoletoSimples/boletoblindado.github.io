@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .background {
@@ -64,7 +64,10 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 799px) {
-  body { background: #6b83ad; }
+  body {
+    background: #6b83ad;
+    overflow-y: auto;
+  }
 
   .background {
     bottom: -25%;
